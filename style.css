@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.insta-container {
+  display: grid;
+}
+
+.task-list {
+  font-size: x-large;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.task-item {
+  line-height: 1.5;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*desktop*/
+@media (min-width: 1920px) {
+  body {
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
