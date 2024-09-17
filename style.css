@@ -18,11 +18,14 @@ body {
   display: grid;
 }
 
-.task-list {
-  font-size: x-large;
+.descritption {
   max-width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.task-list {
+  font-size: large;
 }
 
 .task-item {
